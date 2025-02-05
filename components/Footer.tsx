@@ -106,7 +106,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center mt-6 text-gray-400 text-sm">
-          <p>Copyright &copy; 2021 HooBank. All Rights Reserved.</p>
+          <p>Copyright &copy; 2021 Tinkteq. All Rights Reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <FaInstagram className="text-white hover:text-cyan-400 cursor-pointer" />
             <FaFacebookF className="text-white hover:text-cyan-400 cursor-pointer" />
