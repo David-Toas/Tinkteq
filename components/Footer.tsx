@@ -11,7 +11,6 @@ const Footer = () => {
     <footer className="bg-black text-white py-10 mt-16">
       <div className="mx-auto px-6 md:px-12 lg:px-24">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-12 border-b border-gray-700 pb-6">
-          {/* Logo & Description */}
           <div>
             <Link
               href="/"
@@ -24,7 +23,6 @@ const Footer = () => {
               system—designed for speed and peace of mind.
             </p>
           </div>
-          {/* Useful Links */}
           <div className="items-center ml-11">
             <h3 className="font-poppins text-[18px] leading-[27px] font-semibold mb-3">
               Useful Links
@@ -57,8 +55,6 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
-          {/* Community */}
           <div className="ml-11">
             <h3 className="font-poppins text-[18px] leading-[27px] font-semibold mb-3">
               Community
@@ -91,8 +87,6 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
-          {/* Partner */}
           <div className="ml-11">
             <h3 className="font-poppins text-[18px] leading-[27px] font-semibold mb-3">
               Partner
@@ -111,11 +105,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-
-        {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center mt-6 text-gray-400 text-sm">
           <p>Copyright &copy; 2021 HooBank. All Rights Reserved.</p>
-          {/* Social Icons */}
           <div className="flex space-x-4 mt-4 md:mt-0">
             <FaInstagram className="text-white hover:text-cyan-400 cursor-pointer" />
             <FaFacebookF className="text-white hover:text-cyan-400 cursor-pointer" />
